@@ -1,5 +1,5 @@
 # Team Profile Generator
-  ##  ## undefined 
+  ##  
   ## 
 
   ## Table of Contents
