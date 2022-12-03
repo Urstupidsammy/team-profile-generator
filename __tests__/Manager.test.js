@@ -1,5 +1,5 @@
 const Manager = require("../lib/Manager");
-const Employee = require("../lib/Employee");
+const Employee = require("../lib/Employee").default;
 const { default: test } = require("node:test");
 const { exportAllDeclaration } = require("@babel/types");
 
