@@ -6,6 +6,8 @@
   ### * [Installation](#installation)
   ### * [Questions](#questions)
 
+  ![Screenshot](assets/images/Screen%20Shot%202022-12-03%20at%206.59.51%20AM.png)
+
   ## Installation
   ### You must install the following for this app to run
   ### copy the code inside of this repo and if you have inquirer downloaded , use the command node index.js and you will be asked a series of questions which then will create your team's profile.
