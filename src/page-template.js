@@ -1,6 +1,6 @@
 const generateTeam = (team) => {
 
-    const generatteManager = (manager) => {
+    const generateManager = (manager) => {
         return `
         <div class="card employee-card">
                     <div class="card-header">
@@ -59,7 +59,7 @@ const generateTeam = (team) => {
     html.push(
         team
         .filter((employee) => employee.getRole() === "Manager")
-        .map((manager) => generatteManager(manager))
+        .map((manager) => generateManager(manager))
     );
     html.push(
         team.filter((employee) => employee.getRole() === "Engineer")

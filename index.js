@@ -7,14 +7,13 @@ const generateTeam = require("./src/page-template.js");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
-const { type } = require("os");
-const { async } = require("rxjs");
+
 
 const newStaffMemberData = [];
 
 const questions = async () => {
     const answers = await inquirer
-    .createPromptModule([
+    .prompt([
         {
             type: "input",
             message: "What is your name?",
@@ -97,7 +96,7 @@ async function promptQuestions() {
     await questions()
 
     const addMemberAns = await inquirer
-    prompt([
+    .prompt([
         {
             name: 'addMember',
             type: 'list',
